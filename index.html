@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flowerKart</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+      div{
+        float: left;
+      }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -29,8 +34,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Help</a>
               </li>
-              
-              
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -41,12 +44,145 @@
       </nav>
           <section id="main-section">
               <div class="container-fluid">
-                  <div class="py2 col lg-l3 col-xs-12 col-md-4">
-                    <img src="lavender.jpg" class="img-fluid" alt="pic">
-                    <h5>Lavender</h5>
-                        <p>Lavender is a herb native to northern Africa and the mountainous regions of the Mediterranean.</p>
-                        <h5>60</h5>
+                <div class="row">
+                  <div class="col-3 p-3">
+                    <img src="images/roses.jpg" class="img-fluid" alt="pic">
+                    <h5>Rose</h5>
+                        <p>The rose is a type of flowering shrub.The flowers of the rose grow in many different colors, from the well-known red rose or yellow rose and sometimes white or purple rose. Roses belong to the family of plants called Rosaceae.The plants have flowers that bloom on a bush, and may occur in a variety of colors from pastel pinks to dark, deep blues.</p>
+                    
                   </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://p1.pxfuel.com/preview/278/424/994/jasmine-floral-plant-natural.jpg" class="img-fluid" alt="pic">
+                    <h5>Jasmine</h5>
+                        <p>Jasmine (taxonomic name Jasminum /ˈjæsmɪnəm/ YASS-min-əm[5]) is a genus of shrubs and vines in the olive family (Oleaceae). It contains around 200 species native to tropical and warm temperate regions of Eurasia and Oceania. Jasmines are widely cultivated for the characteristic fragrance of their flowers.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://www.plantsyard.com/uploads/2021/03/Red-Hibiscus-Close-Up-in-the-Garden.jpg" class="img-fluid" alt="pic">
+                    <h5>Hibiscus</h5>
+                        <p>Hibiscus is a shrub-type plant that is deciduous and blooms in the late summer. The flowers can be single or double, and the colorways include white, pink, blue and purple.
+
+                          These are long-lived plants, and they tend to be rather hardy. Unlike many shrubs that spend several years developing, the Hibiscus flowers early in its development.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://www.almanac.com/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/image_nodes/sunflower-1627193_1920.jpg?itok=z0U222mG" class="img-fluid" alt="pic">
+                    <h5>Sunflower</h5>
+                        <p>Sunflowers are native to North and Central America and are part of the 70 species Aster family. They are grown as attractive cut flowers, with edible components for human and animals, and it is used to make yellow dye, lubricants, paints and oils. The fruit of the sunflower is an edible seed called achene.</p>
+                    
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-3 p-3">
+                    <img src="https://rachelchoflowers.com/wp-content/uploads/2019/09/Learn-About-Augusts-Birth-Flower-1-1200x801.jpeg" class="img-fluid" alt="pic">
+                    <h5>Poppy</h5>
+                        <p>The Poppy is a common plant that belongs to the genus Papaver. They bloom during cooler weather and are often found in cooler weather climes.
+
+                          They bloom in a variety of colors, including red, yellow, and pink. They have single and double blooms that are often used to symbolize death and rebirth.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://media.istockphoto.com/photos/snapdragon-flowers-in-a-garden-picture-id531261006?k=20&m=531261006&s=612x612&w=0&h=1ZsWYYRWOsJ_qPtqIhe7o0nJTeZJtczl3-m0kMYj5wU=" class="img-fluid" alt="pic">
+                    <h5>Snapdragon</h5>
+                        <p>The Snapdragon is also known as antirrhinum, a plant that comes in three different groups depending on its size, and they need full sunlight.
+
+                          There is a wide selection of colors, from solid colors to bicolor to doubles. The name comes from plants of older varieties opening when they were squeezed at the sides.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="data:image/jpeg;base64,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" class="img-fluid" alt="pic">
+                    <h5>Sweet Pea</h5>
+                        <p>The Sweet Pea plant is also known as Lathyrus. There are two major classes of this plant, there are dwarf varieties and tall climbing varieties.
+
+                          The flowers come in a range of colors, such as pink, white, and blue. These annuals tend to be hardy and easy to grow, making them popular plants.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://www.thespruce.com/thmb/5MlVK68pe5c6xeChpOhYlWV6L9E=/4288x2848/filters:fill(auto,1)/tulips-planting-and-growing-tulips-1402137-06-5c18a69c82114b16bc8eb3baf69935e3.jpg" class="img-fluid" alt="pic">
+                    <h5>Tulip</h5>
+                        <p>Tulips are hardy perennials that develop from bulbs best planted in the fall.  With the arrival of spring, they are known as harbingers of the season and can create a dazzling display of color with single, parrot, bicolor, doubles, and even fringed blossoms.</p>
+                    
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-3 p-3">
+                    <img src="https://previews.123rf.com/images/luissantos84/luissantos841110/luissantos84111000053/10794334-gorgeous-pink-ixora-flower-rubiaceae-family-in-antigua.jpg" class="img-fluid" alt="pic">
+                    <h5>Ixora</h5>
+                        <p>The Ixora plant is commonly referred to as the flame of the woods. This plant is a broadleaf evergreen that flowers throughout the year.
+
+                          The blooms are red, and the plant tends to be pretty low maintenance, attracting birds and butterflies. It needs full sun and grows best in moist, acidic soils.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://s1.1zoom.me/big3/186/Alstroemeria_Closeup_555802_4288x2848.jpg" class="img-fluid" alt="pic">
+                    <h5>Lily</h5>
+                        <p>Lilies produce iconic trumpet-shaped flowers on their stems, usually producing multiple flowers on each stem. The stems can grow tall, with some towering over 6 feet tall.
+
+                          These are often fragrant flowers, and they come in colors such as white, red, and orange, with solid, spotted, or even streaked petals.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://cdn.shopify.com/s/files/1/1034/3311/files/cymbidium-sp-pink-and-white-orchid-flowers-picture-id1093448542.jpg?v=1554867402" class="img-fluid" alt="pic">
+                    <h5>Orchid</h5>
+                        <p>Orchids are a delicate flower with species found around the world. These plants come in colors across the spectrum, from red to white, but they can be very difficult to grow.
+
+                          They are very sensitive to over-watering, which may cause the roots to rot and lead to the plant dying.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/royal-velvet-lavender-flower-spikes-garden-design_11715.jpg" class="img-fluid" alt="pic">
+                    <h5>Lavender</h5>
+                        <p>Lavender is a popular plant with a variety of uses, including making essential oils and for decorating.
+
+                          The lavender plant is a relatively hardy evergreen, with foliage that is gray-green, sometimes with a silvery color to the leaves. The blooms are usually pale blue or purple but can also be white.</p>
+                    
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-3 p-3">
+                    <img src="https://www.thoughtco.com/thmb/mik7Z00SAYN786BQbieXWOzZmc8=/2121x1414/filters:fill(auto,1)/lotus-flower-828457262-5c6334b646e0fb0001dcd75a.jpg" class="img-fluid" alt="pic">
+                    <h5>Lotus</h5>
+                        <p>The lotus flower or sacred lotus is known by the species name, Nelumbo nucifera. Considered in many areas throughout the Midwest and the world, this plant is considered a noxious weed and measures are taken to prevent it from spreading. It is a sacred plant in areas of Asia, where it is native to.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://www.floraqueen.com/blog/wp-content/uploads/2020/01/shutterstock_113606848.jpg" class="img-fluid" alt="pic">
+                    <h5>Marigold</h5>
+                        <p>Marigolds are hardy annuals that are simple to grow from seeds and that develop strong bloomers with varying tones of yellow and orange.These reliable bloomers create strong color with feathery fern like leaves. Marigolds offer the benefit of pest repelling through the presence of a specific odor.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://cdn.britannica.com/36/82536-050-7E968918/Shasta-daisies.jpg" class="img-fluid" alt="pic">
+                    <h5>Daisy</h5>
+                        <p>Daisies belong to the family Bellis and are perennials. These spread and come in a variety of colors, such as white and pink, or even bicolored.
+
+                          Petals range depending on the species and can be tubular or even needle-like. They grow well with plants like tulips in sunny and warm locations in your garden.</p>
+                    
+                  </div>
+
+                  <div class="col-3 p-3">
+                    <img src="https://bloximages.chicago2.vip.townnews.com/auburnpub.com/content/tncms/assets/v3/editorial/5/f1/5f1cb8b4-7415-538c-b35e-7d7087690bb5/59f21188cd686.image.jpg" class="img-fluid" alt="pic">
+                    <h5>Chrysanthemum</h5>
+                        <p>Chrysanthemums originated thousands of years ago in China before being brought over to Japan. They are commonly used as a cut flower in arrangements or grown as a border flower.
+
+                          Colors of these plants vary and include white, yellow, pink, lilac, and mahogany. The plant comes in many forms as well, such as pompon and anemone centered. </p>
+                    
+                  </div>
+                </div>
               </div>
           </section>
     </div>
